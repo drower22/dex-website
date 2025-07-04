@@ -5,20 +5,36 @@ import AccordionItem from './AccordionItem';
 const faqData = [
   {
     question: 'O Dex é algum tipo de robô?',
-    answer: 'Pode me chamar de sua raposa analista! Uso inteligência artificial para processar seus dados, mas com o cuidado e a perspicácia que só o Dex tem.',
+    answer: 'Pode me chamar de sua raposa analista! Uso inteligência artificial para processar seus dados, mas com o cuidado e a perspicácia que só o Dex tem.'
+  },
+  {
+    question: 'O que o Dex mostra no resumo financeiro?',
+    answer: 'Mostro tudo que o iFood repassou, descontos cobrados, pedidos cancelados e taxas. Você finalmente entende quanto entrou limpo — e com outras informações consigo até estimar seu lucro.'
   },
   {
     question: 'Meus dados financeiros estão seguros?',
-    answer: 'Totalmente. Seus dados são processados e armazenados com segurança. A privacidade e proteção do seu negócio são nossa prioridade máxima.',
+    answer: 'Totalmente. Seus dados são processados e armazenados com segurança. A privacidade e proteção do seu negócio são minha prioridade máxima.'
   },
   {
     question: 'Preciso instalar algum aplicativo ou programa?',
-    answer: 'Não, e essa é a mágica! Tudo acontece pelo WhatsApp. Você envia a planilha do iFood e recebe o resumo financeiro ali mesmo. Simples assim.',
+    answer: 'Não, e essa é a mágica! Tudo acontece pelo WhatsApp. Você só precisa me mandar a planilha do iFood por lá e pronto: o resumo chega no mesmo número. Simples assim.'
   },
   {
-    question: 'Funciona para mais de um loja?',
-    answer: 'Sim! O Dex foi feito para donos de multiplas lojas também. Pode enviar as planilhas de quantas lojas precisar, e terá a análise para cada uma.',
+    question: 'Precisa ser o dono para enviar a planilha?',
+    answer: 'Nada disso! Pode ser um funcionário de confiança, usando outro celular. Eu faço a análise do mesmo jeito e envio o resumo direto pro número do dono.'
   },
+  {
+    question: 'Funciona para mais de uma loja?',
+    answer: 'Sim! O Dex foi feito para quem tem uma ou várias lojas. É só mandar as planilhas separadas e eu te entrego o resumo individual de cada unidade.'
+  },
+  {
+    question: 'Tenho que enviar a planilha todo dia?',
+    answer: 'Não! Você decide a frequência: pode ser diária, semanal ou quando quiser revisar os números. Eu tô sempre pronto pra analisar.'
+  },
+  {
+    question: 'Posso cancelar quando quiser?',
+    answer: 'Claro! Aqui é liberdade total. Sem letras miúdas, sem burocracia. Você pode testar e ficar só se fizer sentido pra você.'
+  }
 ];
 
 const Faq = () => {

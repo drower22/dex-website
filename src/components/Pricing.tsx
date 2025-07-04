@@ -43,9 +43,11 @@ const Pricing = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <div className="flex items-baseline justify-center gap-2 md:gap-3 mb-2">
-            <p className="font-sora text-2xl md:text-3xl font-bold text-gray-400 line-through">R$ 389</p>
-            <p className="font-sora text-5xl md:text-6xl font-bold text-brand-purple-dark">R$ 197<span className="text-2xl md:text-3xl font-medium">/mês</span></p>
-          </div>
+  <p className="font-sora text-2xl md:text-3xl font-bold text-gray-400 line-through whitespace-nowrap">R$&nbsp;389</p>
+  <p className="font-sora text-5xl md:text-6xl font-bold text-brand-purple-dark whitespace-nowrap">
+    R$&nbsp;197<span className="text-2xl md:text-3xl font-medium">/mês</span>
+  </p>
+</div>
           <p className="text-brand-black-charcoal mt-2 mb-8 font-medium">
             Plano completo, sem fidelidade, sem taxa de adesão e sem limites.
           </p>
