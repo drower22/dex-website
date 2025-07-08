@@ -6,9 +6,11 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
-  { name: 'Como Funciona', href: '#how-it-works' },
-  { name: 'Preços', href: '#pricing' },
-  { name: 'Dúvidas Frequentes', href: '#faq' },
+  { name: 'Início', href: '#inicio' },
+  { name: 'Como Funciona', href: '#como-funciona' },
+  { name: 'Preços', href: '#precos' },
+  { name: 'Dúvidas Frequentes', href: '#duvidas-frequentes' },
+  { name: 'Chamada Final', href: '#chamada-final' },
   { name: 'Contato', href: '#footer' },
 ];
 

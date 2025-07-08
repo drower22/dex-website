@@ -11,7 +11,7 @@ import Testimonials from '@/components/Testimonials';
 export default function Home() {
   return (
     <main>
-      <section id="hero">
+      <section id="inicio">
   <Hero />
 </section>
       <section id="como-funciona">
@@ -34,11 +34,11 @@ export default function Home() {
   <Pricing />
 </section>
       <SectionDivider theme="dark" />
-      <section id="faq">
+      <section id="duvidas-frequentes">
   <Faq />
 </section>
       <SectionDivider theme="light" />
-      <section id="cta-final">
+      <section id="chamada-final">
   <FinalCta />
 </section>
     </main>
