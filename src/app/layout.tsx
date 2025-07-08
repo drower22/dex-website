@@ -21,7 +21,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/assets/images/dex_ifood.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
   title: 'Dex | Seu Resumo Financeiro Inteligente no WhatsApp',
   description: 'Receba o resumo diário do seu restaurante (iFood) direto no WhatsApp. Saiba seu lucro, controle taxas e evite prejuízos. Teste grátis!',
@@ -56,6 +58,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${sora.variable} ${inter.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+      </head>
       <body>
         {/* Google Tag Manager (noscript) */}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZNB6LSC" height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
