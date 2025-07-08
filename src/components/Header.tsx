@@ -10,7 +10,6 @@ const navLinks = [
   { name: 'Como Funciona', href: '#como-funciona' },
   { name: 'Preços', href: '#precos' },
   { name: 'Dúvidas Frequentes', href: '#duvidas-frequentes' },
-  { name: 'Chamada Final', href: '#chamada-final' },
   { name: 'Contato', href: '#footer' },
 ];
 
