@@ -1,4 +1,4 @@
-EO export default function Head() {
+export default function Head() {
   return (
     <>
       <title>Dex | Seu Resumo Financeiro Inteligente no WhatsApp</title>
