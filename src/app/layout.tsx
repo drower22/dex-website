@@ -21,9 +21,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    icon: '/favicon2.ico',
+    shortcut: '/favicon2.ico',
+    apple: '/favicon2.ico',
   },
   title: 'Dex | Seu Resumo Financeiro Inteligente no WhatsApp',
   description: 'Receba o resumo diário do seu restaurante (iFood) direto no WhatsApp. Saiba seu lucro, controle taxas e evite prejuízos. Teste grátis!',
@@ -59,9 +59,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${sora.variable} ${inter.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon2.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon2.ico" />
       </head>
       <body>
         {/* Google Tag Manager (noscript) */}
