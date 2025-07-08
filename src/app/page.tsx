@@ -11,20 +11,36 @@ import Testimonials from '@/components/Testimonials';
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <HowItWorks />
+      <section id="hero">
+  <Hero />
+</section>
+      <section id="como-funciona">
+  <HowItWorks />
+</section>
       <SectionDivider theme="light" />
-      <ReportExample />
+      <section id="exemplo-relatorio">
+  <ReportExample />
+</section>
       <SectionDivider theme="dark" />
-      <Benefits />
+      <section id="beneficios">
+  <Benefits />
+</section>
       <SectionDivider theme="light" />
-      <Testimonials />
+      <section id="depoimentos">
+  <Testimonials />
+</section>
       <SectionDivider theme="light" />
-      <Pricing />
+      <section id="precos">
+  <Pricing />
+</section>
       <SectionDivider theme="dark" />
-      <Faq />
+      <section id="faq">
+  <Faq />
+</section>
       <SectionDivider theme="light" />
-      <FinalCta />
+      <section id="cta-final">
+  <FinalCta />
+</section>
     </main>
   );
 }

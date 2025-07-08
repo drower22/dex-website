@@ -75,6 +75,21 @@ export default function RootLayout({
         </PageWrapper>
         <FloatingWhatsApp />
         <Footer />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+          \"@context\": \"https://schema.org\",
+          \"@type\": \"SiteNavigationElement\",
+          \"name\": [\"Início\", \"Como Funciona\", \"Exemplo de Relatório\", \"Benefícios\", \"Depoimentos\", \"Preços\", \"FAQ\", \"Chamada Final\"],
+          \"url\": [
+            \"https://dex-website-placeholder.vercel.app/#hero\",
+            \"https://dex-website-placeholder.vercel.app/#como-funciona\",
+            \"https://dex-website-placeholder.vercel.app/#exemplo-relatorio\",
+            \"https://dex-website-placeholder.vercel.app/#beneficios\",
+            \"https://dex-website-placeholder.vercel.app/#depoimentos\",
+            \"https://dex-website-placeholder.vercel.app/#precos\",
+            \"https://dex-website-placeholder.vercel.app/#faq\",
+            \"https://dex-website-placeholder.vercel.app/#cta-final\"
+          ]
+        }` }} />
       </body>
     </html>
   );
